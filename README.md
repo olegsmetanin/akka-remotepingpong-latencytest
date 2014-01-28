@@ -2,9 +2,14 @@ Akka-remotingpingpong
 ====
 
 Start pong actor
+
 sbt "run-main sample.remote.pingpong.Starter pong"
+
 Start ping actor
+
 sbt "run-main sample.remote.pingpong.Starter ping $host $concurrency $warmup_request_count $request_count"
+
+
 
 
 sbt "run-main sample.remote.pingpong.Starter pong"

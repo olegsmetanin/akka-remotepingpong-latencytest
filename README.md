@@ -15,7 +15,7 @@ Clone this repo
 
 ```
 git clone https://github.com/olegsmith/akka-remotepingpong-latencytest.git
-cd akka-remotepingpong-latencytest.git
+cd akka-remotepingpong-latencytest
 ```
 
 ## Collect statistic

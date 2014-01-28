@@ -62,8 +62,18 @@ object Starter {
      """
   }
 
+  //val ip = java.net.InetAddress.getLocalHost().getHostAddress() - return 127.0.0.1
+  import scala.collection.JavaConversions._
+  val ips = for {
+    ip <-  java.net.NetworkInterface.getNetworkInterfaces.map(_.getInetAddresses).flatten
+    // Some problem with ipv6
+    if ip.isInstanceOf[java.net.Inet4Address]
+    if ip.getHostAddress != "127.0.0.1"
+  } yield {
+    ip.getHostAddress
+  }
 
-  val ip = java.net.InetAddress.getLocalHost().getHostAddress()
+  val ip = ips.next
 
   def startPingSystem(): Unit = {
 

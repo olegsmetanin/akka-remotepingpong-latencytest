@@ -5,11 +5,11 @@ Play ping-pong with remote actor, collect latency statistic and generate plots i
 
 ## Already collected statistics
 
-[MacBook Pro i5 2.53 GHz 8 Gb, different ActorSystems on the same computer](https://github.com/olegsmith/akka-remotepingpong-latencytest/tree/master/result/MacBook%20Pro%20i5%202.53%20GHz%208%20Gb)
+[MacBook Pro i5 2.53 GHz 8 Gb, different ActorSystems on the same computer. View more graphics](https://github.com/olegsmith/akka-remotepingpong-latencytest/tree/master/result/MacBook%20Pro%20i5%202.53%20GHz%208%20Gb)
 
 [<img src="https://raw.github.com/olegsmith/akka-remotepingpong-latencytest/master/result/MacBook%20Pro%20i5%202.53%20GHz%208%20Gb/plot.png">](https://github.com/olegsmith/akka-remotepingpong-latencytest/tree/master/result/MacBook%20Pro%20i5%202.53%20GHz%208%20Gb)
 
-[DigitalOcean 8Gb 4CPU](https://github.com/olegsmith/akka-remotepingpong-latencytest/tree/master/result/DigitalOcean%208Gb%204CPU%20)
+[DigitalOcean 8Gb 4CPU. View more graphics](https://github.com/olegsmith/akka-remotepingpong-latencytest/tree/master/result/DigitalOcean%208Gb%204CPU%20)
 
 [<img src="https://raw.github.com/olegsmith/akka-remotepingpong-latencytest/master/result/DigitalOcean%208Gb%204CPU%20/plot.png">](https://github.com/olegsmith/akka-remotepingpong-latencytest/tree/master/result/DigitalOcean%208Gb%204CPU%20)
 
